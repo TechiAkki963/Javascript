@@ -54,3 +54,10 @@ const y;
 console.log(y);
 //! SyntaxError: Missing initializer in const declaration
 */
+
+// Declaring Multiple Varaible at once
+let d, e, f;
+
+const o = 10,
+  p = 20,
+  q = 30;
