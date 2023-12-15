@@ -1,3 +1,11 @@
+//Single line of code
+
+//to comment Multiple Line
+/*
+const Zero = 0;
+console.log(Zero);
+*/
+
 //**log a string ""
 console.log("Hello World!!!");
 
