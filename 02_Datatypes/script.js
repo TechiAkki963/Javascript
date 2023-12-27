@@ -61,3 +61,7 @@ function sayHello() {
 }
 console.log(sayHello(), typeof sayHello); //**undefined 'function'*/
 //! typeof Function is given as function but actually is an object
+
+//? Stack and Heap
+//**  the variable and its value of a primitive datatype are stored in the Stack */
+//** but the variable of reference datatype/object is stored in Stack and the value is stored in Heap */
