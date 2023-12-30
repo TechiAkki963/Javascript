@@ -1,3 +1,5 @@
+// @IamLearningWeb
+
 //todo : Convert String to a Number */
 let amount = "100";
 

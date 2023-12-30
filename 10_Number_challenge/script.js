@@ -1,3 +1,5 @@
+// @IamLearningWeb
+
 const x = Math.floor(Math.random() * 100 + 1);
 const y = Math.floor(Math.random() * 50 + 1);
 
