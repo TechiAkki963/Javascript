@@ -1,6 +1,6 @@
-### JavaScript Number Methods and Properties Exercise
+# JavaScript Number Methods and Properties Exercise
 
-### Number Methods
+## Number Methods
 
 1. Declare a variable `num` and set it to a `new Number` object with the value `5.3227`.
 
@@ -25,6 +25,6 @@ Access the following number properties and print their values:
 
 ---
 
-### Bonus Task:
+### Bonus Task
 
 Experiment with creating a number using the Number constructor with a different value. Apply some of the methods and properties you learned to this new number and print the results.

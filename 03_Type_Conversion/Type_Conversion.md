@@ -2,7 +2,7 @@
 
 ---
 
-### String to Number Conversion.
+## String to Number Conversion
 
 ---
 
@@ -58,6 +58,6 @@ Declare a variable `isAvailable` with the number value `0`. Convert it to a bool
 
 ### After functions
 
-### Bonus Task:
+### Bonus Task
 
 Create a function `convertToNumber` that takes a parameter (which can be either a string or a number) and returns the converted number. Use appropriate methods to handle both cases.

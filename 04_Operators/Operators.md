@@ -1,6 +1,6 @@
-### JavaScript Operators
+# JavaScript Operators
 
-### Arithmetic Operators
+## Arithmetic Operators
 
 1. Declare a variable `a` and set it to `8`.
    Using the arithmetic operators, perform the following operations and print the result for each:

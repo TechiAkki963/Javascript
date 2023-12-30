@@ -1,6 +1,6 @@
-### JavaScript Type Coercion Exercise
+# JavaScript Type Coercion Exercise
 
-### String Concatenation
+## String Concatenation
 
 1. Declare a variable `stringValue` and assign it the result of adding the number 5 to the string "5". Print the result and the type of the variable.
 
@@ -48,6 +48,6 @@ Declare two variables `trueResult` and `falseResult`. Assign them the results of
 
 ---
 
-### Bonus Task:
+### Bonus Task
 
 Experiment with additional operations or combinations of values to observe type coercion. Explain the results in comments.

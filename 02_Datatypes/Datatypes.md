@@ -1,6 +1,6 @@
 # JavaScript Data Types Exercise
 
-### Primitive Data Types
+## Primitive Data Types
 
 1. Declare a string variable `favoriteColor` with your favorite color and print it to the console.
 1. Declare a number variable `currentYear` with the current year and print it to the console.
@@ -19,7 +19,7 @@
 1. Declare a variable `programmingLanguage` and assign it the value "JavaScript".
    Declare a new variable `anotherLanguage` and set it equal to `programmingLanguage`. Change the value of `anotherLanguage` to `"Python"` and print both variables to the console. Observe the result.
 1. Declare an object `userOne` with properties `id` and `email`. Print the object to the console.
-1. Declare a new variable `userTwo` and set it equal to `userOne`. Change the email property of `userTwo` and print both `userOne` and `userTwo `to the console. Observe the result.
+1. Declare a new variable `userTwo` and set it equal to `userOne`. Change the email property of `userTwo` and print both `userOne` and `userTwo` to the console. Observe the result.
 
 1. Bonus Task:
    Research and explain why the `typeof operator` returns `'object'` for `null` and `'function'` for `functions`.
