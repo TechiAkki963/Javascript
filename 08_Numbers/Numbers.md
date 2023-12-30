@@ -6,13 +6,13 @@
 
 2. Use various number methods to perform the following operations and print the results:
 
-- Convert the number to a string using toString().
+- Convert the number to a string using `toString()`.
 - Get the length of the string representation.
-- Format the number with exactly two decimal places using toFixed().
-- Format the number with precision 2 using toPrecision().
-- Format the number in exponential notation with precision 2 using toExponential().
-- Format the number using the local number format of the United States using toLocaleString().
-- Get the primitive value of the number using valueOf().
+- Format the number with exactly two decimal places using `toFixed()`.
+- Format the number with precision `2` using `toPrecision()`.
+- Format the number in exponential notation with precision `2` using `toExponential()`.
+- Format the number using the local number format of the United States using `toLocaleString()`.
+- Get the primitive value of the number using `valueOf()`.
 
 ---
 
@@ -20,8 +20,8 @@
 
 Access the following number properties and print their values:
 
-- Number.MAX_VALUE: The largest representable number in JavaScript.
-- Number.MIN_VALUE: The smallest representable positive number in JavaScript.
+- `Number.MAX_VALUE:` The largest representable number in JavaScript.
+- `Number.MIN_VALUE:` The smallest representable positive number in JavaScript.
 
 ---
 
