@@ -1,6 +1,7 @@
-###JavaScript Data Types Exercise
+# JavaScript Data Types Exercise
 
-1. Task 1: Primitive Data Types
+### Primitive Data Types
+
 1. Declare a string variable `favoriteColor` with your favorite color and print it to the console.
 1. Declare a number variable `currentYear` with the current year and print it to the console.
 1. Declare a boolean variable `isRaining` with a value of true and print it to the console.

@@ -1,6 +1,8 @@
-### JavaScript Type Conversion Exercise
+# JavaScript Type Conversion Exercise
 
-### String to Number Conversion
+---
+
+### String to Number Conversion.
 
 ---
 
@@ -16,7 +18,7 @@ Print the result and the type of the variable.
 
 ### Number to String Conversion
 
-1.  Declare a variable `quantity` with the number value `25`. Convert it to a string using:
+1. Declare a variable `quantity` with the number value `25`. Convert it to a string using:
 
 - toString()
 - String()

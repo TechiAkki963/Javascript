@@ -1,4 +1,4 @@
-### JavaScript Operators Exercise
+### JavaScript Operators
 
 ### Arithmetic Operators
 
@@ -10,7 +10,9 @@
 - Multiply a by 2.
 - Divide a by 4.
 
-## Find the remainder when `a` is divided by 3.
+Find the remainder when `a` is divided by 3.
+
+---
 
 ### String Concatenation
 
@@ -27,6 +29,8 @@ Declare a variable `base` and set it to `3`. Use the exponentiation operator to 
 ### Increment and Decrement
 
 Declare a variable `count` and set it to `5`. Increment it by `1` and then decrement it by `1`. Print the result after each operation.
+
+--
 
 ### Assignment Operators
 
