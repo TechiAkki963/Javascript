@@ -29,5 +29,6 @@
 
 ---
 
-1. Bonus Task:
-   Research and explain why the `typeof operator` returns `'object'` for `null` and `'function'` for `functions`.
+## Bonus Task
+
+1. Research and explain why the `typeof operator` returns `'object'` for `null` and `'function'` for `functions`.
