@@ -70,7 +70,7 @@ x = todo.hasOwnProperty("name");
 console.log(x); //false
 
 //
-//Object freeze -- with this the Key of Object Properties cannot be changed
+//**Object freeze -- with this the Key of Object Properties cannot be changed
 const obj = {
   prop: 42,
 };
