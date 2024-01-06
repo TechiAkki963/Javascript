@@ -14,7 +14,7 @@ const shows = new Array(
   "DBZ",
   "Naruto"
 );
-console.log(shows);
+console.log(shows); //[ 'Tom and Jerry', 'Pokemon', 'Bayblade', 'DBZ', 'Naruto' ]
 
 // Playing with Arrays
 
