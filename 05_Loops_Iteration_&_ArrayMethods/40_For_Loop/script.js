@@ -6,6 +6,9 @@ for (let i = 0; i <= 10; i++) {
   console.log("Number" + i);
 } //Output from Number 1 to Number 10
 
+//
+//
+
 for (let j = 0; j <= 10; j = j + 2) {
   console.log("Number" + j);
 } // Output Alternate Numbers
