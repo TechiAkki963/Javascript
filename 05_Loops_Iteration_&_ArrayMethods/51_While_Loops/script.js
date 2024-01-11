@@ -30,14 +30,22 @@
 //
 
 //Nesting While Loops
-let i = 0;
-let j = 1;
+// let a = 0;
 
-while (i <= 5) {
-  console.log("Number" + i);
-  while (j <= 5) {
-    console.log(`${i}*${j}=${i * j}`);
-    j++;
-    break;
-  }
-}
+// while (a <= 5) {
+//   console.log("Number" + a);
+
+//   let b = 1;
+//   while (b <= 5) {
+//     console.log(`${a}*${b}=${a * b}`);
+//     b++;
+//   }
+// }
+
+// Do while
+let m = 0;
+
+do {
+  console.log("Number" + m);
+  m++;
+} while (m <= 20);
