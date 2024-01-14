@@ -7,3 +7,8 @@ const colorObj = {
 for (const key in colorObj) {
   console.log(key, colorObj[key]);
 }
+
+const colorArr = ["red", "blue", "green", "orange"];
+for (const key in colorArr) {
+  console.log(colorArr[key]);
+}
