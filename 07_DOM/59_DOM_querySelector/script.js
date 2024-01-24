@@ -21,3 +21,23 @@ document.querySelector("ul");
 
 const myul = document.querySelector("ul");
 console.log(myul);
+// <ul>
+// <li></li>
+// <li></li>
+// <li></li>
+// </ul>
+
+myul.querySelector("li");
+// <li></li>
+// <li></li>
+// <li></li>
+
+const turnGreen = document.querySelector("li");
+
+turnGreen.style.backgroundColor = "green";
+
+turnGreen.style.padding = "15px";
+
+turnGreen.innerText;
+
+turnGreen.innerText = "five";
