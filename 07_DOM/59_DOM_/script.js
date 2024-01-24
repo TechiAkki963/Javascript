@@ -16,3 +16,8 @@ document.querySelector('input[type="password"]');
 /* writingMonitor.js:2 host: 127.0.0.1, id: , name: password, tagName: input, className: , isWebsiteDisabled: false, isWebsiteBlacklisted: false, appToolbarShown: false */
 
 document.querySelector("p:first-child");
+
+document.querySelector("ul");
+
+const myul = document.querySelector("ul");
+console.log(myul);
