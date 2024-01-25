@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Parent Child</title>
+    <style>
+      .bg-dark {
+        background-color: #212121;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body class="bg-dark">
+    <div class="parent">
+      <div class="day">Monday</div>
+      <div class="day">Tuesday</div>
+      <div class="day">Wednesday</div>
+      <div class="day">Thursday</div>
+      <div class="day">Friday</div>
+    </div>
+
+    <script>
+      const parent = document.querySelector(".parent");
+      console.log(parent);
+      /*
+      <div class="parent">
+      <div class="day">Monday</div>
+      <div class="day">Tuesday</div>
+      <div class="day">Wednesday</div>
+      <div class="day">Thursday</div>
+      <div class="day">Friday</div>
+      </div>
+      */
+
+      console.log(parent.children);
+      //   HTMLCollection(5) [div.day, div.day, div.day, div.day, div.day]
+
+      console.log(parent.children[1]);
+      // <div class="day">Tuesday</div>
+
+      console.log(parent.children[1].innerHTML);
+      // Tuesday
+
+      //Applying for loop
+      for (let i = 0; i < parent.children.length; i++) {
+        console.log(parent.children[i].innerHTML);
+      }
+
+      //
+
+      parent.children[1].style.color = "orange";
+      console.log(parent.firstElementChild);
+      console.log(parent.lastElementChild);
+
+      //
+
+      const dayOne = document.querySelector(".day");
+      console.log(dayOne);
+      console.log(dayOne.parentElement); // Monday
+      console.log(dayOne.nextElementSibling); //Tuesday
+
+      //
+
+      console.log(`Node :`, parent.childNodes);
+      //Node :
+      // NodeList(11) [text, div.day, text, div.day, text, div.day, text, div.day, text, div.day, text]
+      // 0:text
+      // 1:div.day
+      // 2:text
+      // 3:div.day
+      // 4:text
+      // 5:div.day
+      // 6:text
+      // 7:div.day
+      // 8:text
+      // 9:div.day
+      // 10:text
+      // length:11
+    </script>
+  </body>
+</html>
