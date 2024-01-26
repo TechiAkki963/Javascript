@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM List Add Remove</title>
+    <style>
+      .bg-dark {
+        background-color: #212121;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body class="bg-dark">
+    <ul class="language">
+      <li>JavaScript</li>
+    </ul>
+  </body>
+  <script>
+    // Normal Method
+    function addLanguage(langName) {
+      const createList = document.createElement("li");
+      createList.innerHTML = `${langName}`;
+      document.querySelector(".language").appendChild(createList); // className from HTML
+    }
+    addLanguage("Python");
+    addLanguage("Rust");
+
+    // Optimized Method
+    function addLanguageOptimized(langName) {
+      const createList = document.createElement("li"); // Create 'li' element
+      const addItem = document.createTextNode(langName); // Create 'textNode'
+      createList.appendChild(addItem);
+      document.querySelector(".language").appendChild(createList);
+    }
+    addLanguageOptimized("GoLang");
+    addLanguageOptimized("Zig");
+
+    // Edit / Replace a value using DOM
+    const secondLang = document.querySelector("li:nth-child(2)");
+    // secondLang.innerHTML = "Mojo";
+    const newLi = document.createElement("li");
+    newLi.textContent = "Mojo";
+    secondLang.replaceWith(newLi);
+
+    // Edit / Replace - 2nd Method - using outerHTML
+    const firstLang = document.querySelector("li:nth-child(1)");
+    firstLang.outerHTML = "<li>Typescript</li>";
+
+    //remove()
+    const lastLang = document.querySelector("li:last-child");
+    lastLang.remove();
+  </script>
+</html>
