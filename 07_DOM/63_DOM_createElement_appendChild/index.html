@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM createElement appendChild</title>
+    <style>
+      .bg-dark {
+        background-color: #212121;
+        color: white;
+      }
+    </style>
+  </head>
+  <body class="bg-dark">
+    <script>
+      //Create 'div' element using Javascript
+      const divCreation = document.createElement("div");
+      console.log(divCreation);
+      divCreation.className = "main";
+      divCreation.id = Math.round(Math.random * 20 + 1);
+      divCreation.setAttribute("title", "generate title");
+      divCreation.style.backgroundColor = "orange";
+      divCreation.style.padding = "20px";
+      divCreation.style.fontSize = "30px";
+
+      // Text Creation using Javascript
+      //   divCreation.innerText = "@iamlearningWeb";
+      const createText = document.createTextNode("i am Learning Web");
+
+      // Add 'Text' element in 'Div'
+      divCreation.append(createText);
+
+      // To display the element on webpage
+      document.body.appendChild(divCreation);
+
+      // Create Image using JavaScript
+      let image = document.createElement("img");
+      image.src =
+        "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg";
+      document.body.appendChild(image);
+      image.style.width = "500px";
+      image.style.margin = "100px 60px 100px 60px";
+    </script>
+  </body>
+</html>
