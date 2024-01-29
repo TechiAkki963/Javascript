@@ -7,3 +7,5 @@ setInterval(function () {
   //   console.log(date.toLocaleTimeString());
   clock.textContent = date.toLocaleTimeString();
 }, 1000);
+
+// 1000 is for 1 second , we can write 2000 for 2 secs
