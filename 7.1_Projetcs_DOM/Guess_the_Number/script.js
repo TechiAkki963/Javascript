@@ -1,5 +1,5 @@
 // # Create the randomNumber
-const randomNumber = parseInt(Math.random() * 100 + 1);
+let randomNumber = parseInt(Math.random() * 100 + 1);
 console.log(randomNumber);
 // # Select the classes and id required in DOM
 const submit = document.querySelector("#submit");
@@ -54,7 +54,6 @@ function checkGuess(guess) {
   //
   if (guess === randomNumber) {
     displayMessage("You Won");
-
     gameEnd();
   } else if (guess < randomNumber) {
     displayMessage("Number is TOOOO low");
@@ -79,8 +78,26 @@ function displayMessage(message) {
 
 function gameEnd() {
   //
+  userInput.value = "";
+  userInput.setAttribute("disabled", "");
+  p.classList.add("button");
+  p.innerHTML = "<h1 id='newGame'>Start New Game</h1>";
+  startOver.appendChild(p);
+  playGame = false;
+  newGame();
 }
 
 function newGame() {
   //
+  const newGame = document.querySelector("#newGame");
+  newGame.addEventListener("click", function (e) {
+    randomNumber = parseInt(Math.random() * 100 + 1);
+    prevGuess = [];
+    numGuess = 1;
+    guessSlot.innerHTML = "";
+    remaining.innerHTML = `${11 - numGuess}`;
+    userInput.removeAttribute("disabled");
+    startOver.removeChild;
+    playGame = true;
+  });
 }
