@@ -1,0 +1,146 @@
+.youtube {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity, 0.3s;
+  margin: 15px;
+}
+.youtube:hover:active {
+  opacity: 0.9;
+}
+
+/*Twitter Button*/
+.twitter {
+  background-color: rgb(256, 256, 256);
+  color: rgb(29, 161, 242);
+  border: 2px solid rgb(29, 161, 242);
+  height: 36px;
+  width: 80px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 15px;
+  display: block;
+}
+
+.twitter:hover:active {
+  background-color: rgb(29, 161, 242);
+  color: white;
+}
+
+/*Twitter Tweet Button*/
+.tweet {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 18px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 15px;
+  display: block;
+}
+
+/*Uber button*/
+.uber {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 105px;
+  margin: 15px;
+  transition: opacity, 0.1s;
+  display: block;
+  cursor: pointer;
+}
+
+.uber:hover:focus:active {
+  opacity: 0.8;
+}
+
+/*Amazon*/
+.amazon {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  height: 40px;
+  width: 180px;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.amazon:hover:active:focus {
+  opacity: 0.7;
+}
+
+/*GITHUB  rgb(46,164,79)*/
+.github {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  height: 40px;
+  width: 80px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+}
+
+.github:hover:active {
+  opacity: 0.8;
+}
+
+/** BOOTSTRAP */
+/* Get Started  rgb(121,82,179)*/
+.bootstrap {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  /* height: 36px; */
+  /* width: 90px; */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+.bootstrap:hover:active {
+  background-color: white;
+  color: rgb(121, 82, 179);
+  border: 2px solid rgb(121, 82, 179);
+}
+
+/* Download rgb(108,117,125)*/
+.download {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border: 2px solid rgb(108, 117, 125);
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 15px;
+}
+.download:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.download:active {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+.download:focus {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
